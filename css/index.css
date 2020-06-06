@@ -1,0 +1,190 @@
+body{
+    border: none;
+}
+#navbar1 {
+    width: 100%;
+    transition: top 0.3s;
+  }
+.nav-item:hover{
+    background-color: #FCAD43;
+    border-radius: 8px;
+}
+.carousel
+{
+    margin-top: 56px;
+}
+.carousel-inner
+{
+    max-height:91vh;
+} 
+.aboutheading
+{
+    text-align: center;
+    margin-bottom: 0;
+}
+.aboutdiv
+{
+  
+   padding: 20px;
+}
+
+.aboutimg
+{
+    background: url('award1.png')  center center no-repeat white;
+    background-size: contain;
+}
+.bar
+{
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.bardiv
+{
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.nominationsdiv > .bar
+{
+    width: 300px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nominationsdiv > .bardiv
+{
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+.nominationsdiv
+{
+    background-color:#FCAD43;
+    width: 100%;
+    padding: 20px;
+}
+
+.card
+{
+    margin-top: 10px;
+    background-color: #FF9000;
+    border-radius: 20px;
+}
+
+ .btn
+{
+    background-color: #FCAD43;
+    border: none;
+    transition: 0.8s;
+    color: black;
+}
+
+.btn:hover
+{
+    background-color: #D54F2D;
+    color: white;
+}
+.card-text
+{
+
+ border: 1px solid gray;
+ border-radius: 30px;
+ text-align: center;
+ background-color: #D43E2B;
+ color: white;
+ width: 50%;
+ margin-left: 25%;
+ transition: 0.8s;
+}
+
+.card-text:hover{
+    background-color: #FCAD43;
+    color: black;
+}
+
+@media only screen and (max-width: 600px)
+ {
+    .abouttext
+    {
+     border-bottom: 5px solid gray;
+     padding: 30px;
+     padding-top: 20px;
+     background: url('award1.png') no-repeat ;
+     background-size: contain;
+     background-position: center;
+     background-color: rgba(255,255,255,0.8);
+     background-blend-mode: lighten;
+     
+    }
+    .bardiv
+   {
+    margin-bottom: 0px;
+    padding: 0;
+   } 
+   
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .navbar-collapse{
+       text-align: center;
+   }
+   .abouttext
+   {
+    padding: 30px;
+    padding-top: 20px;    
+    border-bottom: 5px solid gray;
+    background: url('award1.png') no-repeat ;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+ }
+ .bardiv
+ {
+     margin-bottom: 0px;
+     padding: 0;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar-nav
+    {
+        width: 100%;
+    }
+    .profile{
+      margin-left: auto;
+    }
+    .abouttext
+   {
+    border-right: 5px solid gray;
+    border-bottom: none;
+   }
+   .bardiv
+{
+    margin-bottom: 20px;
+    padding: 0;
+}
+   .abouttext
+   {
+       background: none;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
